@@ -11,7 +11,7 @@ namespace Persistence
     {
         public DbSet<WeatherForecast>? WeatherForecasts { get; set; }
         public DbSet<Post> Posts { get; set; }
-        public string? DbPath { get; }
+        public string DbPath { get; }
 
         public DataContext()
         {
