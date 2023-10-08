@@ -5,14 +5,15 @@ using System.Threading.Tasks;
 using Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace Persistance
+namespace Persistence
 {
     public class DataContext : DbContext
     {
-        public DbSet<WeatherForecast> WeatherForecasts { get; set; }
-        public string DbPath { get; }
+        public DbSet<WeatherForecast>? WeatherForecasts { get; set; }
+        public DbSet<Post> Posts { get; set; }
+        public string? DbPath { get; }
 
-        public DataContext ()
+        public DataContext()
         {
             var folder = Environment.SpecialFolder.LocalApplicationData;
             var path = Environment.GetFolderPath(folder);
@@ -21,8 +22,7 @@ namespace Persistance
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlite($"Data Source={DbPath}");
+            options.UseSqlite($"Data Source = {DbPath}");
         }
     }
 }
-
