@@ -11,12 +11,18 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~12.2.0",
+<<<<<<< HEAD
     "@angular/cdk": "^12.2.13",
+=======
+>>>>>>> activity-6
     "@angular/common": "~12.2.0",
     "@angular/compiler": "~12.2.0",
     "@angular/core": "~12.2.0",
     "@angular/forms": "~12.2.0",
+<<<<<<< HEAD
     "@angular/material": "^12.2.13",
+=======
+>>>>>>> activity-6
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
@@ -38,4 +44,8 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.3.5"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> activity-6
