@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-<<<<<<< HEAD
 import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
@@ -23,20 +22,10 @@ import { CreatePostComponent } from './create-post/create-post.component';
     HomeComponent,
     ViewPostComponent,
     CreatePostComponent
-=======
-
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-
-@NgModule({
-  declarations: [
-    AppComponent
->>>>>>> activity-6
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-<<<<<<< HEAD
     HttpClientModule,
     BrowserAnimationsModule,
     MatCardModule,
@@ -46,9 +35,6 @@ import { AppComponent } from './app.component';
     FormsModule,
     MatFormFieldModule,
     MatInputModule
-=======
-    HttpClientModule
->>>>>>> activity-6
   ],
   providers: [],
   bootstrap: [AppComponent]
